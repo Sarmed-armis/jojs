@@ -15,6 +15,7 @@ class CreateTotalMonthlyIncomesTable extends Migration
     {
         Schema::create('total_monthly_incomes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

@@ -15,6 +15,7 @@ class CreatePersonaldetailsTable extends Migration
     {
         Schema::create('personaldetails', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

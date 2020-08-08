@@ -15,6 +15,7 @@ class CreateResidenceTypeidsTable extends Migration
     {
         Schema::create('residence_typeids', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

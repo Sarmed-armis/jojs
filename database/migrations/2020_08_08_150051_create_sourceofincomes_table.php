@@ -15,6 +15,7 @@ class CreateSourceofincomesTable extends Migration
     {
         Schema::create('sourceofincomes', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

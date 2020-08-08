@@ -15,6 +15,7 @@ class CreateLegalStatusidsTable extends Migration
     {
         Schema::create('legal_statusids', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }

@@ -15,6 +15,7 @@ class CreateCreditTypesTable extends Migration
     {
         Schema::create('credit_types', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->timestamps();
         });
     }
