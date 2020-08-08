@@ -12,6 +12,9 @@
         <br>
         <br>
 
+        <a href="{{url('kyc')}}" class="btn btn-lg btn-success">فتح حساب</a>
+
+
         <div class="loginbox bg-white">
 
 
